@@ -1,0 +1,22 @@
+{
+  "name": "@kjots/snyk-issue-peer-dependencies",
+  "version": "1.0.0",
+  "description": "Snyk issue: peer dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kjots@github.com/kjots/snyk-issue-peer-dependencies.git"
+  },
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/snyk-issue-peer-dependencies/issues"
+  },
+  "homepage": "https://github.com/kjots/snyk-issue-peer-dependencies#readme",
+  "dependencies": {
+    "test-dependency": "file:packages/test-dependency/kjots-test-dependency-1.0.0.tgz"
+  }
+}
